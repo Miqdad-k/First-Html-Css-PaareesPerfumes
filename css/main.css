@@ -1,0 +1,170 @@
+
+
+
+#mainHeader{
+
+background-image: url(../img/portfolio-1.jpg);
+background-size: cover;
+height: 500px;
+width: 100%;
+}
+h1,h2,h3,h4{
+	font-family:georgia,garamond,serif;
+}
+p{
+	font-family:TimesNewRoman,serif;
+	font-size: 20px;
+}
+a{
+	font-family:Bookman,serif;
+	 
+}
+nav{
+text-shadow: 0 0 6px black, 0 0 10px black;
+
+}
+
+.hr1{
+    max-width: 130px;
+    border-width: 3px;
+    border-color: #f05f40;}
+.hr2{
+    max-width: 100px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+.mybtn{
+	background-color:#f05f40;
+	color:#fff;
+	}
+	.text-nav {
+  text-align: 96px !important;
+}
+#nav1{
+	width: 100%;
+	height: 65px;
+	background-color: blue;
+}
+#anc1{
+		margin-top: 20px;
+		float: right;
+		 background-repeat:no-repeat;
+
+	}
+	.text-yellow {
+  color: #FFFF00 !important;}
+  .text-green {
+  color: 	#00FF00 !important;
+
+}
+.text-red {
+  color: 	#ffbbb1	 !important;}
+.text-orange {
+  color: #ffa500 !important;
+}
+.bg-webblue {
+  background-color: #00719c		 !important;
+}
+.bg-webblue1 {
+  background-color: 	#009bd6		 !important;
+}
+.bg-webblue2 {
+  background-color: 	#00b8ff			 !important;
+}
+.bg-purple {
+  background-color: 		#9400D3			 !important;
+}
+.hove hover{
+	background:#00b8ff; 
+}
+.b-hr:hover{
+	background-color: #ADD8E6;
+}
+.f-ho:hover{
+	background-color: #D3D3D3;
+}
+
+.page1{
+	background-image: url('../img/banner.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	width: 100%;
+	height: 400px;
+	top: 0;	
+}
+
+.bg-t{
+	background-color: transparent !important;
+}
+.hr3{
+    max-width: 90%;
+    border-width: 2px;
+    border-color: 	#696969;
+}
+.hr4{
+    max-width: 180px;
+    border-width: 3px;
+    border-color: blue;
+}
+.page2{
+	background-image: url('../img/banner1.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	width: 100%;
+	height: 400px;
+	top: 0;	
+}
+.page3{
+	background-image: url('../img/banner2.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	width: 100%;
+	height: 400px;
+	top: 0;	
+}
+.page4{
+	background-image: url('../img/banner3.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	width: 100%;
+	height: 400px;
+	top: 0;	
+}
+.fque{
+	background-color: thistle;
+	 width: 100%;
+}
+.fbtn{
+	height: 50px;
+	width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-color:grey;
+}
+.fans{
+	margin-top: 0px;
+	margin-left: 50px;
+	padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#DCDCDC;
+}
+.Rborder{
+	border:solid;
+	 border-color:#696969;
+	  border-width: 1px;	
+}
+@media only screen and (max-width: 767px) {
+   .minimize {
+    background-color:#696969;
+  }
+  .minimize li:hover{
+    background-color:#d7d7d9;
+  }
+}
+

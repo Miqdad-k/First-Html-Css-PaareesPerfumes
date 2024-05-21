@@ -1,0 +1,37 @@
+
+
+.img-box{
+	height: 400px;
+
+}
+.imgs-box {
+
+	height: 350px;
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+.prices{
+	color: #ff555b;;
+	line-height: 20px;
+	font-size: 22px;
+
+}
+.checked{
+	color: orange;
+	size: 1px;
+
+}
+#qty{
+	width: 60px;
+	text-align: center;
+	background: transparent;
+	font-size: 20px;
+}
+.anchor {
+	color: black;
+}
+.anchor:hover{
+	text-decoration: none;
+	color: black;
+}

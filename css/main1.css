@@ -1,0 +1,346 @@
+
+body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+
+		
+	
+	/*product body width*/
+	body{
+		background-color: #ffffff;
+	}
+
+	.slider-box{
+		margin: 25px;
+		height: 300px;
+		width: auto;
+		position: relative;
+		background-color: #ffffff;
+		border-radius: 5px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	
+	}
+	.slider-box a{
+		text-decoration: none;
+		text-align: center;
+	}
+	.slider-box a:hover{
+		text-decoration: none;
+	}
+	/*image heig*/
+	.img-box{
+		height: 130px;
+	}
+.img-box img{
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+.time{
+	position: absolute;
+	top: 8px;
+	right: 20px;
+	color: red;
+}
+.detail{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	line-height: 28px;
+
+	
+}
+.price{
+	color: #ff555b;;
+	line-height: 20px; 
+	
+}
+.cart{
+	position: absolute;
+	bottom: -15px;
+	height: 36px;
+	background-color: #450478;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color:white;
+	border-radius: 15px;
+	font-size: 20px;
+	
+}
+
+
+
+.img-box:hover{
+	transform: scale(1.04);
+	transition: all ease 0.3s;
+}
+
+.cart:hover{
+	transform: scale(1.02);
+	background-color: #450478;
+	box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+	transition: all ease 0.1s;
+	color: white;
+	text-decoration: none;
+	
+}
+.cart a:hover{
+	text-decoration: none;
+	
+}
+/*collection*/
+#item{
+	border-right: solid;
+}
+
+#item a{
+color: black;
+	text-decoration: none;
+
+}
+
+#item a:hover{
+	text-decoration: underline;
+}
+
+
+#heading{
+	border-bottom: #c3c6c9 1px solid;
+	margin-bottom: 15px;
+
+}
+
+
+.checked{
+	color: #f5d142;
+	
+
+}
+.not-active {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: #6d6e6d;
+	
+  }
+  .menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+  }
+  .menus{
+	list-style: none;
+	
+	
+	
+  }
+ #midnav{
+	 border-top: #c3c6c9 1px solid;
+	 border-bottom: #c3c6c9 1px solid;
+	 
+	
+ }
+
+#borderli{
+	font-weight: bold;
+}
+#borderli:hover{
+
+	border-bottom: 4px solid purple;
+	
+}
+.modalcenter{
+	top: 50%;
+	transform:translateY(-50%);	
+	
+	
+}
+#out{
+	outline: none;
+	color: red;
+}
+
+.modal-header{
+	background-color: black;
+	color: white;
+	
+	
+}
+#bar{
+	color: #656769;
+	outline-color: #656769;
+	border: 1px solid #656769;
+}
+
+
+#left-space{
+	padding-left: 40px;
+}
+.minimum{
+	padding-left: 20px;
+	padding-top: 5px;
+}
+#btnpri{
+	font-family:Bookman,serif;
+	font-size: 18px;
+	line-height: 15px;
+	background-color: rebeccapurple;
+
+}
+#btnpri:hover{
+	transform: scale(1.01);
+	box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+	transition: all ease 0.1s;
+	color: white;
+	text-decoration: none;
+	
+}
+.minimums{
+	padding-left: 30px;
+	
+}
+#btnpris{
+	font-family:Bookman,serif;
+	font-size: 20px;
+	background-color: rebeccapurple;
+
+}
+#btnpris:hover{
+	transform: scale(1.01);
+	box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+	transition: all ease 0.1s;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+
+@media only screen and (max-width: 1270px) {
+	/* For mobile phones: */
+	.slider-box p{
+	font-size: 18px;
+	}
+	.cart{
+		font-size: 18px;
+	}
+  }
+
+
+  @media only screen and (max-width: 1180px) {
+	/* For mobile phones: */
+	[class*="slider-box"] {
+		height: auto;
+		width: 100%;
+	}
+  }
+
+ 
+ 
+  @media only screen and (max-width: 970px) {
+	/* For mobile phones: */
+	.slider-box{
+		height: 90%;
+		width: 135px;
+	}
+	.cart{
+		font-size: 18px;
+	}
+	.slider-box p{
+		font-size: 18px;
+	}
+	
+  }
+  @media only screen and (max-width: 767px) {
+	/* For mobile phones: */
+	[class*="slider-box"] {
+		height: auto;
+		width: 100%;
+	}
+	.minimums{
+		font-size: 24px;
+		padding-left: 5px;
+		
+	}
+	#btnpris{
+		font-size: 18px;
+	}
+	.minimize{
+		background-color:#696969;
+	  }
+	  .minimize li:hover{
+		background-color:#d7d7d9;
+	  }
+  }
+
+ 
+  @media only screen and (max-width: 600px) {
+	/* For mobile phones: modal*/
+	
+	.minimum{
+		font-size: 24px;
+		padding: 0;
+		
+	}
+	#btnpri{
+		font-size: 16px;
+	}
+	#btnpris{
+		font-size: 18px;
+	}
+  }
+  @media only screen and (max-width: 480px) {
+	/* For mobile phones: */
+	
+	#font-s a{
+		font-size: 13px;
+		align-items: center;
+	}
+	#font-s span{
+		font-size: 13px;
+	}
+	#left-space{
+		padding-left: 0;
+		
+	}
+	
+	#btnpri{
+		font-size: 13px;
+	}
+	
+	#btnpris{
+		font-size: 13px;
+	}
+	
+  }
+  
+  @media only screen and (max-width: 360px) {
+	/* For mobile phones: */
+	
+	#font-s a{
+		font-size: 12px;
+		align-items: center;
+		margin: 0;
+	}
+	#font-s span{
+		font-size: 12px;
+		margin: 0;
+	}
+	#btnpri{
+		font-size: 12px;
+	}
+	#btnpris{
+		font-size: 14px;
+		
+	}
+  }
+ 
+  
